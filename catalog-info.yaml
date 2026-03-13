@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Demo-March-13
+  description: Node app that displays time - named Demo-March-13
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/Demo-March-13
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/Demo-March-13/main
+    argocd/app-name: demo-march-13
+    backstage.io/kubernetes-id: Demo-March-13
+    backstage.io/kubernetes-namespace: default
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
